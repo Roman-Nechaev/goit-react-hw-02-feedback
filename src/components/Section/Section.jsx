@@ -1,7 +1,9 @@
 import PropTypes from 'prop-types';
 
+import { Title } from './Section.styled';
+
 const Section = ({ title }) => {
-  return <h1>{title}</h1>;
+  return <Title>{title}</Title>;
 };
 
 export default Section;
